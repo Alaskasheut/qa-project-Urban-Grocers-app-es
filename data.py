@@ -10,17 +10,10 @@ user_body = {
     "address": "123 Elm Street, Hilltop"
 }
 
-#Create kits
+#Create kit
 kit_body = {
     "name": "New kit",
-    "card": {
-        "id": 1,
-        "name": "New kit"
-    },
-    "productsList":6,
-    "id": 8,
-    "productsCount": 0
-   }
+    "card": 1 }
 
 #This is an empty body to test if it is possible to create a kit with and empty body
 kit_body_empty={}
