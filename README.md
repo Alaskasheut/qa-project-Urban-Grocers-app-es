@@ -31,6 +31,5 @@ Swagger    URL/api/swagger
 
 ## Urban Grocers [ create_kit - parameter: "name" ] testing checklist
 
-Link to file:
-https://docs.google.com/spreadsheets/d/1MMni-gecUXFTzBP6Q6ReykiM-AhpKyG6/edit?usp=drive_link&ouid=112711575793272570934&rtpof=true&sd=true
+[File tests Project Urban Grocers](https://docs.google.com/spreadsheets/d/1MMni-gecUXFTzBP6Q6ReykiM-AhpKyG6/edit?usp=drive_link&ouid=112711575793272570934&rtpof=true&sd=true)
 
