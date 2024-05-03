@@ -3,7 +3,7 @@
 
 This project consists in test cases for the field "name" in the body for a request to create a new kit for a user.
 
-#  The requirements for test cases follows the documentation find in:
+#  The requirements for test cases follow the documentation find in:
 ```ssh 
 Apidocs    URL/docs/
 ```
