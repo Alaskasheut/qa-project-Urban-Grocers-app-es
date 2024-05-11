@@ -13,7 +13,7 @@ user_body = {
 #Create kit
 kit_body = {
     "name": "New kit",
-    "card": 1 }
+    "card": 0}
 
 #This is an empty body to test if it is possible to create a kit with and empty body
 kit_body_empty={}

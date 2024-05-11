@@ -2,27 +2,27 @@ import sender_stand_request
 import data
 
 #--------------------------------------------GET USER-------------------------------------------
-def get_user_body(first_name): #To get a new user we need a user_body
+def get_user_body(first_name):
     current_body = data.user_body.copy()
     current_body["firstName"] = first_name
     return current_body
 
 # ----------------------------------------GET USER TOKEN----------------------------------------
-def get_new_user_token(): #This function obtains the token generated when a new user is created
+def get_new_user_token():
     user_body = get_user_body("Alma")
     user_response = sender_stand_request.post_new_user(user_body)
     return user_response.json()['authToken']
 
 
 #----------------------------------------GET NEW KIT NAME----------------------------------------
-def get_kit_body(kit_name): #With this function is possible to modify only the parameter "name" a kit_body
+def get_kit_body(kit_name):
     current_kit_body = data.kit_body.copy()
     current_kit_body["name"] = kit_name
     return current_kit_body
 
 
 #--------------------------------POSITIVE ASSERT IN CREATE KIT {NAME}----------------------------
-def positive_assert(kit_name): #When the request is successful due the paramerts this is the answer required.
+def positive_assert(kit_name):
     kit_body = get_kit_body(kit_name)
     auth_Token=get_new_user_token()
     kit_response = sender_stand_request.post_create_new_client_kit(kit_body,auth_Token)
