@@ -14,7 +14,7 @@ def get_new_user_token():
     return user_response.json()['authToken']
 
 
-#----------------------------------------GET NEW KIT NAME----------------------------------------
+#-----------------------------------+-----GET NEW KIT NAME----------------------------------------
 def get_kit_body(kit_name):
     current_kit_body = data.kit_body.copy()
     current_kit_body["name"] = kit_name
