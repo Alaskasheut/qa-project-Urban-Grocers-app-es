@@ -20,8 +20,8 @@ Swagger    URL/api/swagger
 
 | Purpose | Endpoint
 | ----- | ----- |
-| URL de autorización | POST /api/v1/users - crear un usuario o usuaria |
-| URL para los kits | POST /api/v1/kits - crear un kit |
+| Authorization URL | POST /api/v1/users - Create a user |
+| Create kit URL | POST /api/v1/kits - Create a kit |
 
 ## Previous steps
 - Create user
