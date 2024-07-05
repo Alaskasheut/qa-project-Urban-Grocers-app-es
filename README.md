@@ -25,7 +25,7 @@ Swagger    URL/api/swagger
 
 ## Previous steps
 - Create user
-- The request must have a headers with user authToken.
+- The request must contain a user authToken in header.
 
 ## Acceptance Criteria for field "Name"
 - Just latin alphabet
