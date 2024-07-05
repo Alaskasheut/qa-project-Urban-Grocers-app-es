@@ -89,7 +89,7 @@ IDE|Pycharm||
 #
 I based on materials from Tripleten Platform given for a project. This is just a functionality, there are several test objects to test.
 #
-If you have got any doubt about the project fell free to contact me.
+If you have got any doubt about the project feel free to contact me.
 
 
 
