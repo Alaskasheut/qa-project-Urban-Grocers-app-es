@@ -4,7 +4,7 @@
 
 ## About the project
 #
-I wrote this code to gain experience in the analysis of requirements, writing test cases and execute automatized test in an API. This helps to detect bugs in an API when a request POST is sended.
+I wrote this code to gain experience in the analysis of requirements, writing test cases and execute automated tests in an API. This tests helps to detect bugs in an API when a request POST is sent.
 
 This code is designed to test the functionality of the field "Name" in the request "Create a kit", according with the Back-end documentation requirements. 
 
